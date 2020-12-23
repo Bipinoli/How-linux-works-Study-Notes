@@ -45,4 +45,23 @@ modifying PATH env variable:
 `PATH=$PATH:newdir`  
 appends the PATH variable  
 
+Terminal keyboard shortcuts:  
+`CTRL-A` : move to the start of line  
+`CTRL-E` : move to the end of line  
+`CTRL-U` : delete whole line backward
 
+Search manual by keyword:  
+`$ man -k keyword `  
+
+Detail and conceptucal documentation:  
+`$ info command`
+
+Redirect to file:  
+overwrite file: `$ command > file`  
+append to file: `$ command >> file` 
+
+Redirect stdout to outfile and stderr to errorfile:  
+`$ command > outfile 2> errorfile `  
+
+Redirect stderr to same as stdout:  
+`$ command > logfile 2>&1`     
