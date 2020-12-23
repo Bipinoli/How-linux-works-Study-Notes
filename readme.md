@@ -27,3 +27,22 @@ kernel keeps the snapshot of memory and cpu state  during context switch.
 `ls` in shell works like this:  
 - shell `fork()` creating a copy of shell
 - that copy `exec(ls)` replacing the process with `ls` 
+
+## Chapter 2: Basic Commands and Directory Hierarchy
+
+```
+ioli@bipin:~$ find /usr/share -name words  
+/usr/share/dict/words
+```
+
+`grep`, `find`, `diff`, `file`  
+
+making shell variable an env variable:  
+`$ VARIABLE=value`  
+`$ export VARIABLE`  
+
+modifying PATH env variable:  
+`PATH=$PATH:newdir`  
+appends the PATH variable  
+
+
