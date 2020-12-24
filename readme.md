@@ -64,4 +64,21 @@ Redirect stdout to outfile and stderr to errorfile:
 `$ command > outfile 2> errorfile `  
 
 Redirect stderr to same as stdout:  
-`$ command > logfile 2>&1`     
+`$ command > logfile 2>&1`  
+
+double dollar gives the pid of current shell  
+`$ ps u $$`  
+
+freeze the process  
+`$ kill -STOP pid`  
+resume the process  
+`$ kill -CONT pid`  
+
+suspended processes  
+`$ jobs `  
+resume by bringing to foreground  
+`$ fg`  
+resume in background  
+`$ bg`  
+
+
