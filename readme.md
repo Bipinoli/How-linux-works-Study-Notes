@@ -81,4 +81,23 @@ resume by bringing to foreground
 resume in background  
 `$ bg`  
 
+compress  
+`$ gzip file`  
+decompress  
+`$ gunzip file.gz`  
+archive  
+`$ tar cvf archive.tar file1 file2 file3 ..`  
+unpack archive  
+`$ tar xvf archive.tar`  
 
+decompressing compressed archive  
+`$ gunzip archive.tar.gz`  
+check what files are there in archive  
+`$ tar tvf archive.tar`  
+extract from archive  
+`$ tar xvf archive.tar`  
+
+pipelined way of decompressing compressed archive  
+`$ gunzip -c archive.tar.gz | tar xvf -`  
+
+## Chapter 3: Devices  
