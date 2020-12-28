@@ -101,3 +101,9 @@ pipelined way of decompressing compressed archive
 `$ gunzip -c archive.tar.gz | tar xvf -`  
 
 ## Chapter 3: Devices  
+
+device files:  
+*b* : block device (eg. disks)  
+*c* : character device (eg. printer)  
+*p* : pipe device  
+*s* : socket device   
